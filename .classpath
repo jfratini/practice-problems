@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="array_rotate/solutions"/>
+	<classpathentry kind="src" path="coin_change"/>
+	<classpathentry kind="src" path="factorial"/>
+	<classpathentry excluding="solutions/" kind="src" path="find_uncoupled_int"/>
+	<classpathentry kind="src" path="find_uncoupled_int/solutions"/>
+	<classpathentry kind="src" path="linked_list_cycle/solutions"/>
+	<classpathentry kind="src" path="ransom"/>
+	<classpathentry kind="src" path="tree_zig_zag/solutions"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
