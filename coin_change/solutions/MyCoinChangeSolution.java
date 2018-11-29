@@ -25,7 +25,7 @@ public class MyCoinChangeSolution {
 					if (totalAmount == amount) {
 						solutionCount++;
 					}
-					if (totalAmount <= amount) {
+					while (totalAmount <= amount && i > 0) {
 						i--;
 						coinCount[i] = 0;
 					}

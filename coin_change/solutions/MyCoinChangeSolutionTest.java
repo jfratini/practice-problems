@@ -44,5 +44,14 @@ class MyCoinChangeSolutionTest {
 		assertEquals(0, coinChangeCalculator.findChangeCombinations(0, new int[] { 2, 5, 7 }));
 	}
 
+	/**
+	 * Tests the following scenario if amount = 0 and the given coins are {2,5,7}
+	 * then there should be 0 solutions.
+	 */
+	@Test
+	public void testFindChangeCombinations5() {
+		assertEquals(227491942,
+				coinChangeCalculator.findChangeCombinations(250, new int[] { 2, 5, 3, 6, 10, 7, 8, 12, 17, 19, 20 }));
+	}
 
 }
