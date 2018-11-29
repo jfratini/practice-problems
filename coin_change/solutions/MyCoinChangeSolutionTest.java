@@ -61,5 +61,5 @@ class MyCoinChangeSolutionTest {
 	public void testWaysToMakeChangeFor$1() {
 		assertEquals(293, coinChangeCalculator.findChangeCombinations(100, new int[] { 1, 5, 10, 25, 50, 100 }));
 	}
-
+	
 }
