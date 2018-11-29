@@ -45,13 +45,21 @@ class MyCoinChangeSolutionTest {
 	}
 
 	/**
-	 * Tests the following scenario if amount = 0 and the given coins are {2,5,7}
-	 * then there should be 0 solutions.
+	 * Tests the following scenario if amount = 250 and the given coins are {2, 5, 3, 6, 10, 7, 8, 12, 17, 19, 20}
+	 * then there should be 227491942 solutions.
 	 */
 	@Test
 	public void testFindChangeCombinations5() {
 		assertEquals(227491942,
 				coinChangeCalculator.findChangeCombinations(250, new int[] { 2, 5, 3, 6, 10, 7, 8, 12, 17, 19, 20 }));
+	}
+	
+	/**
+	 * This tests how many ways there are to make change for $1 using minted currency.
+	 */
+	@Test
+	public void testWaysToMakeChangeFor$1() {
+		assertEquals(293, coinChangeCalculator.findChangeCombinations(100, new int[] { 1, 5, 10, 25, 50, 100 }));
 	}
 
 }
